@@ -1,0 +1,59 @@
+/* Local imports for other css files */
+@import "./type.css";
+
+/* Global css values that will be used in multiple stylesheets */
+/* How to use as a value: var(--primary) for example */
+
+:root {
+    --primary: #fff;
+    --primary-light: #fff;
+    --primary-dark: #fff;
+
+    --secondary: #fff;
+    --secondary-light: #fff;
+    --secondary-dark: #fff;
+
+    --on-primary: #fff;
+    --on-secondary: #fff;
+
+    --background: #e5e5d7;
+    --on-background: #2b2b2b;
+}
+
+/* reset defaults */
+*, *::before, *::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+/* @media only screen and (max-width: 1366px) {
+    .wrapper {
+      max-width: 1024px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .wrapper {
+      max-width: 768px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .wrapper {
+      max-width: 480px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .wrapper {
+      max-width: 100%;
+    }
+  } */
