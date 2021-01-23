@@ -1,13 +1,15 @@
 /* Local imports for other css files */
 @import "./type.css";
+@import "./header.css";
+@import "./button.css";
 
 /* Global css values that will be used in multiple stylesheets */
 /* How to use as a value: var(--primary) for example */
 
 :root {
-    --primary: #fff;
-    --primary-light: #fff;
-    --primary-dark: #fff;
+    --primary: #006FE6;
+    --primary-light: #66a8f0;
+    --primary-dark: #004da1;
 
     --secondary: #fff;
     --secondary-light: #fff;
@@ -30,7 +32,11 @@
 .wrapper {
     max-width: 1366px;
     margin: 0 auto;
-    padding: 0px 20px;
+}
+
+body {
+  font-family: 'Aileron', sans-serif;
+  background-color: #F9F9F9;
 }
 
 /* @media only screen and (max-width: 1366px) {
